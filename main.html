@@ -8,6 +8,37 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+    <form action="backend.js" method="post">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="gender_m">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="gender_f">
+        <label for="male">Female</label>
+
+        <label for="cars">Car Brands: </label>
+        <select name="cars" id="cars">
+            <option value="BMW" selected disabled>BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mercedez">Mercedez</option>
+        </select>
+
+        <label for="carage">Car Age: </label>
+        <input type="number" name="carage" id="carage">
+
+        <label for="dop">Date of Purchase (dop): </label>
+        <input type="number" name="dop" id="dop">
+
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+
+        <button type="submit">Submit</button>
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
