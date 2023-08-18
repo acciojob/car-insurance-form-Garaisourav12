@@ -10,15 +10,15 @@
 	<!-- the entire body must be written by student -->
     <form action="backend.js" method="post">
         <label for="name">Name: </label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" required>
 
         <label for="email">Email: </label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
 
         <label for="gender">Gender: </label>
-        <input type="radio" name="gender" id="gender_m">
+        <input type="radio" name="gender" id="gender_m" required>
         <label for="male">Male</label>
-        <input type="radio" name="gender" id="gender_f">
+        <input type="radio" name="gender" id="gender_f" required>
         <label for="male">Female</label>
 
         <label for="cars">Car Brands: </label>
@@ -30,13 +30,13 @@
         </select>
 
         <label for="carage">Car Age: </label>
-        <input type="number" name="carage" id="carage">
+        <input type="number" name="carage" id="carage" required>
 
         <label for="dop">Date of Purchase (dop): </label>
-        <input type="number" name="dop" id="dop">
+        <input type="number" name="dop" id="dop" required>
 
         <label for="password">Password: </label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" required>
 
         <button type="submit">Submit</button>
     </form>
